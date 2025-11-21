@@ -1,2 +1,54 @@
-# Data Pipeline for Hardware Sales
-TechStore sells hardware equipment and stores its sales history in a CSV file on GitHub. This repository shows how to transform that data into actionable insights using Microsoft Fabric and Power BI, ensuring versioning and collaboration via Git/GitHub.
+
+# Data Pipeline for Hardware Sales 📊
+
+## 📖 Context
+The company **TechStore** sells hardware equipment and maintains a sales history in a CSV file hosted on GitHub.  
+The data team needs to transform this data into actionable insights using **Microsoft Fabric** and **Power BI**, ensuring **version control** and **collaboration** via **Git/GitHub**.
+
+Two professionals will be involved:
+- **Data Engineer**: responsible for data ingestion, transformation, and storage.
+- **Data Analyst**: responsible for semantic model creation and report development.
+
+---
+
+## ⚙️ Problem
+The raw CSV file is not ready for analysis:
+- It contains non-standardized columns (e.g., price unit).
+- It is not integrated into an analytical environment.
+- incluia a imagem faltando a coluna!!
+---
+
+## 🎯 Objective
+Create an automated pipeline that:
+- Ingests data from GitHub into Microsoft Fabric.
+- Transforms and stores it in the Lakehouse.
+- Builds a semantic model for Power BI reports.
+- Versions scripts and documentation in GitHub.
+
+---
+
+## 👨‍💻 Diagram
+![Diagrama do Pipeline](imagens/hardwaresales.png)
+---
+
+## 🚦Prerequisites
+Before starting, make sure to:
+1. **Active Microsoft Fabric account**.
+   - imagem free account
+   - account jire: data engineer
+   - account jovita: data analyst
+3. **Create a Workspace in Microsoft Fabric**:
+   - Suggested name: `WS-HardwareSales`.
+     
+4. **Access Management**:
+   - Add **Data Engineer** as **Admin** of the workspace.
+   - Add **Data Analyst** as **Member** (with permission to create models and reports).
+5. **GitHub Repository**:
+   - Create repository: `https://raw.githubusercontent.com/ShalomAndre/HardwaresSales/refs/heads/main/dev_hardware_sales_data.csv`.
+   - Create Token (com imagem abaixo)
+   - Give permissions (com imagem abaixo)
+   - Configure **Git Integration** in Microsoft Fabric:
+     - In **Workspace Settings → Git Integration**, connect to the GitHub repository.
+     - Choose the name, personal token e url repository
+
+---
