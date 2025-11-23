@@ -56,7 +56,7 @@ Before starting, make sure to:
    - Create Token
      ![Diagrama do Pipeline](images/token.png)
    - Give permissions
-     ![Diagrama do Pipeline](images/token.png)
+     ![Diagrama do Pipeline](images/permissions.png)
    - Configure **Git Integration** in Microsoft Fabric:
      - In **Workspace Settings → Git Integration**, connect to the GitHub repository.
      - Choose the name, personal token e url repository (imagem do workspace prrenchendo)
