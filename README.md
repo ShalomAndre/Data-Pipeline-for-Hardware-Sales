@@ -53,8 +53,10 @@ Before starting, make sure to:
    - Create repository: `Data-Pipeline-for-Sales`.
      ![Diagrama do Pipeline](images/repository.png)
    
-   - Create Token (com imagem abaixo)
-   - Give permissions (com imagem abaixo)
+   - Create Token
+     ![Diagrama do Pipeline](images/token.png)
+   - Give permissions
+     ![Diagrama do Pipeline](images/token.png)
    - Configure **Git Integration** in Microsoft Fabric:
      - In **Workspace Settings → Git Integration**, connect to the GitHub repository.
      - Choose the name, personal token e url repository (imagem do workspace prrenchendo)
