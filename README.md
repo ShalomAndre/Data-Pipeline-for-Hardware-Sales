@@ -28,7 +28,7 @@ Create an automated pipeline that:
 ---
 
 ## 👨‍💻 Diagram
-![Diagrama do Pipeline](imagens/hardwaresales.png)
+![Diagrama do Pipeline](images/hardwaresales.png)
 ---
 
 ## 🚦Prerequisites
@@ -44,7 +44,8 @@ Before starting, make sure to:
    - Add **Data Engineer** as **Admin** of the workspace.
    - Add **Data Analyst** as **Member** (with permission to create models and reports).
 5. **GitHub Repository**:
-   - Create repository: `https://raw.githubusercontent.com/ShalomAndre/HardwaresSales/refs/heads/main/dev_hardware_sales_data.csv`.
+   - Create repository: `Data-Pipeline-for-Sales`.
+   - colocar a imagem do create repository
    - Create Token (com imagem abaixo)
    - Give permissions (com imagem abaixo)
    - Configure **Git Integration** in Microsoft Fabric:
