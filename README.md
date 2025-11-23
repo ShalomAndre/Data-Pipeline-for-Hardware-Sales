@@ -34,9 +34,12 @@ Create an automated pipeline that:
 ## 🚦Prerequisites
 Before starting, make sure to:
 1. **Active Microsoft Fabric account**.
-   - imagem free account
+![Diagrama do Pipeline](images/free-account.png)
    - account jire: data engineer
+![Diagrama do Pipeline](images/data-engineer.png)
    - account jovita: data analyst
+![Diagrama do Pipeline](images/data-analyst.png)
+
 3. **Create a Workspace in Microsoft Fabric**:
    - Suggested name: `WS-HardwareSales`.
      
