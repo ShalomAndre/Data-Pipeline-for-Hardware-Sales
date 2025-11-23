@@ -46,14 +46,16 @@ Before starting, make sure to:
 
 4. **Access Management**:
    - Add **Data Engineer** as **Admin** of the workspace.
+     ![Diagrama do Pipeline](images/access-data-engineer.png)
    - Add **Data Analyst** as **Member** (with permission to create models and reports).
+     ![Diagrama do Pipeline](images/access-data-analyst.png)
 5. **GitHub Repository**:
    - Create repository: `Data-Pipeline-for-Sales`.
-   - colocar a imagem do create repository
+     ![Diagrama do Pipeline](images/repository.png)
+   
    - Create Token (com imagem abaixo)
    - Give permissions (com imagem abaixo)
    - Configure **Git Integration** in Microsoft Fabric:
      - In **Workspace Settings → Git Integration**, connect to the GitHub repository.
-     - Choose the name, personal token e url repository
-
+     - Choose the name, personal token e url repository (imagem do workspace prrenchendo)
 ---
