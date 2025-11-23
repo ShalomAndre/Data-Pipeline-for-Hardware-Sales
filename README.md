@@ -42,7 +42,8 @@ Before starting, make sure to:
 
 3. **Create a Workspace in Microsoft Fabric**:
    - Suggested name: `WS-HardwareSales`.
-     
+![Diagrama do Pipeline](images/workspace.png)
+
 4. **Access Management**:
    - Add **Data Engineer** as **Admin** of the workspace.
    - Add **Data Analyst** as **Member** (with permission to create models and reports).
