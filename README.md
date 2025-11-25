@@ -62,3 +62,35 @@ Before starting, make sure to:
        ![Diagrama do Pipeline](images/configuration.png)
        ![Diagrama do Pipeline](images/configuration-git.png)
 ---
+
+## 📋 Project Flow
+
+### Phase 1: Data Engineer
+**Ingestion**
+- Connect **Dataflow Gen2** to the `HardwareSales.csv` file hosted on GitHub.
+- Example URL:`https://raw.githubusercontent.com/TechStore/data-pipeline/main/HardwareSales.csv`
+
+**Transformation**
+- Create calculated column `UnitPrice` (e.g.: `UnitPrice = Total / Quantity`).
+
+**Storage**
+- Publish transformed data to the **Lakehouse** in the same Microsoft Fabric workspace.
+
+---
+
+### Phase 2: Data Analyst
+**Semantic Model**
+- Create the semantic model.
+
+**Reports**
+- Build dashboards:
+- Total revenue per month.
+- Top-selling products.
+
+- Publish in the Microsoft Fabric workspace.
+
+---
+
+## Author
+![Diagrama do Pipeline](images/author-fabric.png)
+    
