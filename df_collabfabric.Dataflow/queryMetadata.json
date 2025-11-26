@@ -1,0 +1,32 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "df_collabfabric",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "dev_hardware_sales_data": {
+      "queryId": "8bfd0c4c-da67-4f21-ab13-d70867b550cb",
+      "queryName": "dev_hardware_sales_data",
+      "loadEnabled": false
+    },
+    "dev_hardware_sales_data_DataDestination": {
+      "queryId": "aa754148-53fd-4c22-87a0-83fb69bcef00",
+      "queryName": "dev_hardware_sales_data_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://raw.githubusercontent.com/ShalomAndre/HardwaresSales/refs/heads/main/dev_hardware_sales_data.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"ceb9850c-8e4d-4726-ab44-1ed64ee533f2\",\"DatasourceId\":\"72428cef-69a6-4e3c-b754-1d6140f47c2d\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"ceb9850c-8e4d-4726-ab44-1ed64ee533f2\",\"DatasourceId\":\"1b21a825-51d5-46b4-b345-e0e0a54ea43b\"}"
+    }
+  ]
+}
