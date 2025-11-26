@@ -1,0 +1,9 @@
+expression 'DirectLake - lh_collabfabric' =
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/a9726fbb-94dc-4325-83dc-55693edd2db8/d85bd19b-2fdd-4584-b399-105c6cec03ee", [HierarchicalNavigation=true])
+		in
+		    Source
+	lineageTag: 9f3d8738-e18b-4fd3-a3de-d678829dbe11
+
+	annotation PBI_IncludeFutureArtifacts = False
+
